@@ -1,9 +1,7 @@
-import "tailwindcss";
-
 function Navbar() {
     return (
       <>
-        <p className="className='bg-amber-900'">navbar</p>
+        <p className="bg-amber-500">navbar</p>
       </>
     )
   }
