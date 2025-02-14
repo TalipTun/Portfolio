@@ -4,6 +4,8 @@ import home from "../icons/home.png";
 import contact from "../icons/contact.png"; 
 import person from "../icons/person.png"; 
 import skills from "../icons/skills.png"; 
+import github from "../icons/github-sign.png"; 
+import linkedin from "../icons/linkedin-logo.png"; 
 
 function Navbar() {
     return (
@@ -15,32 +17,39 @@ function Navbar() {
           </div>
           <div id="buttons" className="h-96 py-10">
             <ul id="item-container" className="m-0 p-0 h-full flex flex-col justify-between text-center text-[#9a9a9a]">
-                <div className="flex flex-row justify-left pl-8 gap-2 items-center hover:brightness-150 transition duration-300">
-                  <img src={home} className="h-10 w-10 brightness-500" />
-                  <li className="text-[20px]">Home</li>
+                <div className="flex flex-row justify-left pl-10 gap-2 items-center hover:brightness-150 transition duration-300">
+                  <img src={home} className="h-7 w-7 brightness-500" />
+                  <li className="text-[20px] mt-2">Home</li>
                 </div>
-                <div className="flex flex-row justify-left pl-8 gap-2 brightness-60 items-center hover:brightness-125 transition duration-300">
-                  <img src={code} className="h-10 w-10 invert" />
+                <div className="flex flex-row justify-left pl-10 gap-2 brightness-60 items-center hover:brightness-125 transition duration-300">
+                  <img src={code} className="h-7 w-7 invert" />
                   <li className="text-[20px] brightness-150">Projects</li>
                 </div>
-                <div className="flex flex-row justify-left pl-8 gap-2 items-center hover:brightness-150 transition duration-300">
-                  <img src={person} className="h-10 w-10 brightness-500" />
+                <div className="flex flex-row justify-left pl-10 gap-2 items-center hover:brightness-150 transition duration-300">
+                  <img src={person} className="h-7 w-7 brightness-500" />
                   <li className="text-[20px]">About</li>
                 </div>
-                <div className="flex flex-row justify-left pl-8 gap-2 brightness-70 items-center hover:brightness-125 transition duration-300">
-                  <img src={skills} className="h-10 w-10 invert" />
+                <div className="flex flex-row justify-left pl-10 gap-2 brightness-70 items-center hover:brightness-125 transition duration-300">
+                  <img src={skills} className="h-7 w-7 invert" />
                   <li className="text-[20px] brightness-150">Skills</li>
                 </div>
-                <div className="flex flex-row justify-left pl-8 gap-2 brightness-70 items-center hover:brightness-125 transition duration-300">
-                  <img src={contact} className="h-10 w-10 invert" />
+                <div className="flex flex-row justify-left pl-10 gap-2 brightness-70 items-center hover:brightness-125 transition duration-300">
+                  <img src={contact} className="h-7 w-7 invert" />
                   <li className="text-[20px] brightness-150">Contact</li>
                 </div>
               </ul>
           </div>
-          <div id="symbols" className="h-15 flex flex-row justify-center gap-3 items-center">
-            <img src={icon} className="h-10 w-10 transition duration-300 hover:brightness-125" />
-            <img src={icon} className="h-10 w-10 transition duration-300 hover:brightness-125" />
-            <img src={icon} className="h-10 w-10 transition duration-300 hover:brightness-500" />
+          <div id="symbols" className="h-15 flex flex-row justify-center gap-5 items-center brightness-65">
+            <div className="h-10 w-10 brightness-65 hover:brightness-500 transition duration-300">
+              <a href="https://github.com/TalipTun" target="_blank" rel="noopener noreferrer">
+                <img src={github} className="h-10 w-10 invert" />
+              </a>
+            </div>
+            <div className="h-10 w-10 brightness-65 hover:brightness-500 transition duration-300">
+              <a href="https://www.linkedin.com/in/talip-tun-03820734b/" target="_blank" rel="noopener noreferrer">
+                <img src={linkedin} className="h-10 w-10 invert" />
+              </a>
+            </div>
           </div>
         </div>
       </>
