@@ -4,3 +4,7 @@
 body {
     font-family: 'League Spartan', sans-serif;
 }
+
+html, body {
+    animation: slowScroll 2s ease-in-out;
+  }

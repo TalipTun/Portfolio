@@ -5,23 +5,33 @@ function Home() {
       <>
       <div className="h-screen w-screen pl-48 bg-black">
         <Navbar />
-        
+        <div id="Home" className="text-white text-7xl flex flex-col justify-center items-center h-screen font-extralight gap-4">
+          <p>Hello, I'm <span className="text-amber-300">Talip</span>.</p>
+          <p>I'm a CS year 1 undergraduate.</p>
+          <div className="border-4 border-amber-300 text-amber-300 px-5 pt-2 flex flex-row items-center">
+            <a className="h-full w-full" href="#Projects">View my work ↓</a>
+          </div>
+        </div>
+
+        <div id="Projects" className="h-190 bg-amber-950">
+
+        </div>
+
+        <div id="About" className="h-190 bg-amber-500">
+
+        </div>
+
+        <div id="Skills" className="h-190 bg-amber-100">
+
+        </div>
+
+        <div id="Contact" className="h-190 bg-amber-800">
+
+        </div>
+
       </div>
       </>
     )
   }
   
-  export default Home
-
-  /* <div>
-  <div id="project1" className="group relative w-80 h-80 bg-amber-50 flex flex-col justify-center items-center">
-  <p>Http Server with C</p>
-  <img src={photo} alt="Project Image" />
-
-  { Hidden description}
-    <div className="absolute inset-0 bg-black bg-opacity-80 text-red-500 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-      <p className="text-center">This is a simple HTTP server implemented in C using sockets.</p>
-    </div>
-  </div>
-  </div> 
-*/
+  export default Home;
