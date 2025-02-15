@@ -1,4 +1,3 @@
-import icon from "../icons/icon.png" ;
 import code from "../icons/code.png"; 
 import home from "../icons/home.png"; 
 import contact from "../icons/contact.png"; 
