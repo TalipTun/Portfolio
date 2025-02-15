@@ -8,3 +8,21 @@ body {
 html, body {
     animation: slowScroll 2s ease-in-out;
   }
+
+  
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ffcb26; /* Amber-400 */
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #d97706; /* Darker amber on hover */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: black; /* Make the track background transparent */
+  }

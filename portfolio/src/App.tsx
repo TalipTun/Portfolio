@@ -8,7 +8,7 @@ import Contact from './pages/contact'
 function App() {
   return (
     <>
-      <div className="h-screen w-[screen-48] ml-48 bg-black">
+      <div className="h-screen w-[screen-48] ml-48 bg-[#1c1d1e] scrollbar-thumb-blue-500">
         <Navbar />
         <Home />
         <Projects />
