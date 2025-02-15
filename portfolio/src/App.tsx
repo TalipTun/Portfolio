@@ -1,14 +1,21 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/home.tsx"
+import Navbar from './components/navbar'
+import Home from './pages/home'
+import Projects from './pages/projects'
+import About from './pages/about'
+import Skills from './pages/skills'
+import Contact from './pages/contact'
 
 function App() {
   return (
     <>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
-      </Router>
+      <div className="h-screen w-[screen-48] ml-48 bg-black">
+        <Navbar />
+        <Home />
+        <Projects />
+        <About />
+        <Skills />
+        <Contact />
+      </div>
     </>
   )
 }
