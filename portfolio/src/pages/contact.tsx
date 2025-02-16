@@ -39,7 +39,7 @@ function Contact() {
               <img src={props.logo} className="h-10 w-10 invert"></img>
               <p className="text-white text-3xl">{props.text}</p>
               <a href={props.link} target="_blank" rel="noopener noreferrer" className="w-full h-8">
-                <button className="w-full h-12 text-2xl rounded-2xl text-center bg-white text-black">{props.name}</button>
+                <button className="w-full h-12 text-2xl rounded-2xl text-center bg-white text-black hover:bg-black hover:text-white transition duration-300">{props.name}</button>
               </a>
             </div>
           ))}
