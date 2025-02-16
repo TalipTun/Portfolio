@@ -1,6 +1,6 @@
 import image from "../assets/image.jpg"
 import certificate from "../assets/certificate.png"
-import scrimba from "../assets/scrimba.jpg"
+import scrimba from "../assets/scrimba.png"
 import harvard from "../assets/harvard.png"
 
 type Project = {
@@ -35,10 +35,11 @@ const projects: Project[] = [
 export default function Projects() {
   return (
     <>
-      <div id="Projects" className="w-full bg-[#1c1d1e] text-center">
-            <h1 className="text-5xl text-white">Portfolio</h1>
+    <div id="Projects" className="bg-[#1c1d1e] min-h-screen flex flex-col w-full justify-center items-center">
+      <div className="w-full mb-10 text-center">
+            <h1 className="text-6xl text-white">Portfolio</h1>
       </div>
-      <div className="min-h-screen pb-10 flex flex-row flex-wrap gap-4 justify-center items-center bg-[#1c1d1e]">
+      <div className=" pb-10 flex flex-row flex-wrap content-start gap-4 justify-center items-center bg-[#1c1d1e]">
         {projects.map((project, index) => (
           <div
             key={index}
@@ -59,6 +60,7 @@ export default function Projects() {
           </div>
         ))}
       </div>
+    </div>
     </>
   );
 }
