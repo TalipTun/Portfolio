@@ -26,8 +26,8 @@ const props: AboutProps[] = [
 function About() {
     return (
       <>
-        <div id="About" className="pt-30 w-full h-screen bg-[#1c1d1e] text-white">
-          <div className="w-full  text-center">
+        <div id="About" className="pt-10 w-full min-h-screen bg-[#1c1d1e] text-white flex flex-col justify-center items-center">
+          <div className="w-full text-center">
               <h1 className="text-6xl mb-10">About Me</h1>
           </div>
           <div id="about" className="w-full flex flex-col justify-center items-center">
@@ -36,7 +36,7 @@ function About() {
           <div className="w-full text-center">
               <h1 className="text-5xl mb-10">Work Experience</h1>
           </div>
-          <div id="Experience" className="flex flex-row flex-wrap content-start justify-center gap-5 w-full bg-[#1c1d1e] h-screen">
+          <div id="Experience" className="flex flex-row flex-wrap content-start justify-center gap-5 w-full bg-[#1c1d1e] pb-20">
             {props.map((props) => (
                 <div className="w-130 min-h-80 bg-[#131313] rounded-2xl flex flex-col justify-between p-4 gap-4">
                   <div className="flex flex-row justify-between">
