@@ -2,7 +2,6 @@ import code from "../icons/code.png";
 import home from "../icons/home.png"; 
 import contact from "../icons/contact.png"; 
 import person from "../icons/person.png"; 
-import skills from "../icons/skills.png"; 
 import github from "../icons/github-sign.png"; 
 import linkedin from "../icons/linkedin-logo.png"; 
 
