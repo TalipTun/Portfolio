@@ -13,7 +13,6 @@ function App() {
         <Home />
         <Projects />
         <About />
-        <Skills />
         <Contact />
       </div>
     </>

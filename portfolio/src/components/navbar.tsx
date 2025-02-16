@@ -28,10 +28,12 @@ function Navbar() {
                   <img src={person} className="h-7 w-7 brightness-500" />
                   <a className="text-[20px]" href="#About">About</a>
                 </div>
+                {/*}
                 <div className="flex flex-row justify-left pl-10 gap-2 brightness-70 items-center hover:brightness-125 transition duration-300">
                   <img src={skills} className="h-7 w-7 invert" />
                   <a className="text-[20px] brightness-150" href="#Skills">Skills</a>
                 </div>
+                */}
                 <div className="flex flex-row justify-left pl-10 gap-2 brightness-70 items-center hover:brightness-125 transition duration-300">
                   <img src={contact} className="h-7 w-7 invert" />
                   <a className="text-[20px] brightness-150" href="#Contact">Contact</a>
