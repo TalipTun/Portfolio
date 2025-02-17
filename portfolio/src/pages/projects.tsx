@@ -43,17 +43,14 @@ export default function Projects() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="relative group cursor-pointer w-80 h-80 m-0 p-0" // Fixed width and height
+            className="relative group cursor-pointer w-80 h-80 m-0 p-0"
           >
-            {/* Title Box */}
             <div className="w-full h-full bg-[#131313] text-white flex flex-col justify-start transition duration-300 group-hover:bg-amber-400 text-center">
               <h3 className="text-xl font-bold mt-5">{project.title}</h3>
               <div className="flex justify-center items-center h-full w-full">
                 <img src={project.image} alt={project.title} className="max-h-60 max-w-60"/>
               </div>
             </div>
-
-            {/* Description Box (Hidden by default, shows on hover) */}
             <div className="absolute inset-0 bg-black bg-opacity-70 text-white p-4 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
               <p className="text-sm text-center">{project.description}</p>
             </div>
